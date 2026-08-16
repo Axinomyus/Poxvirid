@@ -154,7 +154,8 @@ assets/poxvirid-security.png
 -->
 
 <p align="center">
-  <img src="assets/poxvirid-security.png" alt="Poxvirid Security Analysis" width="85%">
+  <img src="https://github.com/user-attachments/assets/690ed7e9-b64a-4017-a778-cc67164a66d6" alt="Poxvirid Security Analysis" width="85%">
+  
 </p>
 
 Analyze the security of your vault **without sending your credentials to an external service.**
@@ -180,7 +181,8 @@ assets/poxvirid-generator.png
 -->
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4344ddd7-58e6-46f5-8572-fb5370f3d30e" alt="Poxvirid Password Generator" width="85%">
+  <img src="https://github.com/user-attachments/assets/4344ddd7-58e6-46f5-8572-fb5370f3d30e" alt="Poxvirid Password Generator" width="30%">
+  
 </p>
 
 
