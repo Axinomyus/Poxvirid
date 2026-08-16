@@ -1,38 +1,137 @@
 # 🔐 Poxvirid Vault
 
-**A completely free, local-first password manager for Windows and Android.**
+<p align="center">
+  <strong>A completely free, local-first password manager for Windows and Android.</strong>
+</p>
 
-Your passwords shouldn't live in somebody else's database.
+<p align="center">
+  Your passwords shouldn't live in somebody else's database.<br>
+  Poxvirid keeps your credentials <strong>encrypted, offline, and under your control.</strong>
+</p>
 
-Poxvirid Vault keeps your credentials **encrypted, offline, and under your control** - without cloud accounts, subscriptions, telemetry, or advertising.
+<p align="center">
+  <a href="https://www.axinomyus.com/products/poxvirid">
+    <img src="https://img.shields.io/badge/🌐_Website-Visit_Poxvirid-18181b?style=for-the-badge" alt="Website">
+  </a>
+</p>
 
-> **Completely free. Fully local. All your data in your pocket.**
+<p align="center">
+  <strong>Completely free • Fully local • No telemetry • No subscriptions</strong>
+</p>
+
+---
+
+## ✨ Poxvirid
+
+<!--
+Replace the image below with your main showcase image.
+
+Recommended:
+assets/poxvirid-showcase.png
+-->
+
+<p align="center">
+  <img src="https://www.axinomyus.com/public/assets/uploads/products/f4ddffb7-5f93-4832-8485-ad6196ad08c8.png" alt="Poxvirid Windows and Android" width="100%">
+</p>
+
+Poxvirid is a **privacy-first password manager** designed around one simple principle:
+
+> **If your vault doesn't need to leave your device, why send it to a server?**
+
+There is no cloud vault, no advertising network, no telemetry system and no subscription standing between you and your passwords.
+
+Your encrypted vault belongs to **you**.
+
+---
+
+## 💻 Desktop Experience
+
+<!--
+DESKTOP SCREENSHOT
+
+Put your Windows/Desktop screenshot here:
+
+assets/poxvirid-desktop.png
+-->
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/17266b24-479f-4812-b60c-27b9620d09c0" alt="Poxvirid Desktop Application" width="90%" />
+</p>
+
+Poxvirid provides a full desktop vault experience for Windows with quick access to your credentials, categories, favorites, custom fields and security tools.
+
+### Desktop features
+
+* 🔐 Encrypted local vault
+* 🔎 Password security analysis
+* 🎲 Secure password generator
+* 📁 Categories and organization
+* ⭐ Favorites
+* 📝 Encrypted notes
+* 🧩 Custom fields
+* 💾 Encrypted backups
+* 📦 Portable Pocket Edition
+* 📋 Timed clipboard clearing
+* 🔒 Automatic vault locking
+
+---
+
+## 📱 Mobile Experience
+
+<!--
+MOBILE SCREENSHOTS
+
+You can replace these with 2-3 Android screenshots:
+
+assets/poxvirid-mobile-1.png
+assets/poxvirid-mobile-2.png
+assets/poxvirid-mobile-3.png
+-->
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2a46e595-a192-42ae-a7c6-49aa9c68e8ae" width="30%" alt="Poxvirid Mobile Vault">
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/4f2d2980-9a06-491b-91c5-ca53f3eee6aa" width="30%" alt="Poxvirid Mobile Password">
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/ced1f8bd-ecd3-4c31-b939-29a03c702820" width="30%" alt="Poxvirid Mobile Security">
+</p>
+
+Take your encrypted vault with you on Android while maintaining the same local-first security philosophy.
+
+* 👆 Biometric unlocking
+* 📵 Screenshot protection
+* 🔐 OS-backed secure key storage
+* 🔒 Automatic locking
+* 📋 Clipboard protection
+* 💾 `.poxvirid` backup support
+* 🛡️ Minimal permissions
+
+---
 
 ## 🛡️ Privacy by Architecture
 
-Poxvirid follows a simple principle:
+Poxvirid is designed to minimize how much trust you need to place in anyone else.
 
-**If your vault never needs to leave your device, why send it to a server?**
+|                      | Poxvirid |
+| -------------------- | -------- |
+| ☁️ Cloud Vault       | ❌ No     |
+| 👁️ Telemetry        | ❌ No     |
+| 📢 Advertising       | ❌ No     |
+| 👤 Account Required  | ❌ No     |
+| 💳 Subscription      | ❌ No     |
+| 🔓 Recovery Backdoor | ❌ No     |
+| 💾 Local Storage     | ✅ Yes    |
+| 🔐 Encrypted Vault   | ✅ Yes    |
 
-There is:
+**Your passwords remain on your device.**
 
-* ☁️ **No cloud vault**
-* 📡 **No password transmission**
-* 👁️ **No telemetry**
-* 📢 **No advertising SDK**
-* 👤 **No Poxvirid account required**
-* 💳 **No subscription**
-* 🔒 **No master-password recovery backdoor**
-
-Your encrypted vault stays on your device.
+---
 
 ## 🔐 Strong Encryption
 
-Poxvirid uses modern cryptographic primitives designed to protect sensitive credentials.
-
 ### AES-256-GCM
 
-Sensitive vault data is protected using **AES-256-GCM authenticated encryption**, providing confidentiality, integrity, and tamper detection.
+Sensitive vault data is protected using **AES-256-GCM authenticated encryption**, providing confidentiality, integrity and tamper detection.
 
 Each encryption operation uses a fresh nonce and authentication tag.
 
@@ -40,40 +139,25 @@ Each encryption operation uses a fresh nonce and authentication tag.
 
 Your master password is processed using **Argon2id**, a memory-hard password derivation algorithm designed to make brute-force attacks significantly more expensive.
 
-Poxvirid generates a random **256-bit vault key**, while the master password-derived key is used to protect that vault key.
+Poxvirid generates a random **256-bit vault key**, while the master password-derived key protects that vault key.
 
-Your master password itself is never stored.
+**Your master password itself is never stored.**
 
-## 💻 Windows + Android
-
-Use the same security model across your devices.
-
-| Platform                  | Availability |
-| ------------------------- | ------------ |
-| 🪟 Windows                | ✅ Available  |
-| 🤖 Android                | ✅ Available  |
-| 📦 Windows Pocket Edition | ✅ Available  |
-
-Encrypted `.poxvirid` backups can be transferred between Windows and Android.
-
-## ⚡ Built for Everyday Security
-
-Poxvirid isn't just encrypted storage.
-
-It includes practical protections designed to reduce credential exposure during normal use:
-
-* 🔒 Automatic vault locking
-* 🧠 Vault-key memory cleanup
-* 📋 Timed clipboard clearing
-* 📱 Android screenshot & screen-recording protection
-* 👆 Biometric unlocking on supported Android devices
-* 🔑 OS-backed secure key storage
-* 🛡️ Minimal Android permissions
-* 🔎 Local password security analysis
+---
 
 ## 🔍 Local Security Analysis
 
-Analyze your vault without sending password hashes or credentials to an external service.
+<!--
+Optional security analysis screenshot:
+
+assets/poxvirid-security.png
+-->
+
+<p align="center">
+  <img src="assets/poxvirid-security.png" alt="Poxvirid Security Analysis" width="85%">
+</p>
+
+Analyze the security of your vault **without sending your credentials to an external service.**
 
 Poxvirid can locally detect:
 
@@ -81,34 +165,42 @@ Poxvirid can locally detect:
 * Reused passwords
 * Old passwords
 * Passwordless entries
-* Missing account identity information
+* Missing account information
 
-**The analysis happens on your device.**
+> **The analysis happens on your device.**
+
+---
 
 ## 🎲 Secure Password Generator
 
-Generate cryptographically secure:
+<!--
+Optional password generator screenshot:
 
-* Passwords
-* Passphrases
+assets/poxvirid-generator.png
+-->
 
-without relying on an online password-generation service.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4344ddd7-58e6-46f5-8572-fb5370f3d30e" alt="Poxvirid Password Generator" width="85%">
+</p>
+
+
+Generate cryptographically secure **passwords and passphrases** directly inside Poxvirid without relying on an online password-generation service.
+
+---
 
 ## 💾 Encrypted Backups
 
-Poxvirid uses its own portable:
+Poxvirid uses its own portable encrypted backup format:
 
 ```text
 .poxvirid
 ```
 
-encrypted backup format.
-
 Exports use **Argon2id + AES-256-GCM** and can be protected with a separate export password.
 
-During import, Poxvirid validates the file structure, checksum, cryptographic configuration, and authentication data before accepting the vault.
+During import, Poxvirid validates the file structure, checksum, cryptographic configuration and authentication data before accepting the vault.
 
-Import modes include:
+### Import options
 
 * Merge
 * Full replacement
@@ -117,62 +209,95 @@ Import modes include:
 * Update existing entries
 * Duplicate entries
 
+This also makes it possible to move encrypted vault backups between your **Windows and Android devices**.
+
+---
+
 ## 📦 Poxvirid Pocket Edition
+
+<!--
+Optional Pocket Edition screenshot:
+
+assets/poxvirid-pocket.png
+-->
+
+<p align="center">
+  <img src="assets/poxvirid-pocket.png" alt="Poxvirid Pocket Edition" width="85%">
+</p>
 
 Don't want to install another application?
 
 **Poxvirid Pocket Edition** provides a setup-free Windows build that can be kept in a folder or on portable storage and launched when needed.
 
-Same vault.
+**Same vault. Same encryption. No traditional installation required.**
 
-Same encryption.
+---
 
-No traditional installation required.
+## 🧩 Everything Organized
 
-## 🧩 Organized Vault
+Your vault can contain much more than a simple username and password.
 
-Poxvirid provides more than a simple password list.
+Organize your data using:
 
-Organize credentials using:
+* 📁 Categories
+* ⭐ Favorites
+* 🗂️ Custom tabs
+* 🏢 Workspaces
+* 👤 Usernames
+* 📧 Email addresses
+* 🌐 Websites
+* 📝 Encrypted notes
+* 🧩 Custom fields
+* 🔐 Sensitive encrypted fields
 
-* Categories
-* Favorites
-* Custom tabs
-* Workspaces
-* Usernames
-* Email addresses
-* Websites
-* Encrypted notes
-* Custom fields
-* Sensitive encrypted custom fields
+Everything is designed around keeping your vault useful **without requiring a cloud backend.**
 
-Everything is designed around keeping the vault useful **without requiring a cloud backend**.
+---
+
+## 🪟 Windows + Android
+
+| Platform                  | Availability |
+| ------------------------- | :----------: |
+| 🪟 Windows                |       ✅      |
+| 📦 Windows Pocket Edition |       ✅      |
+| 🤖 Android                |       ✅      |
+
+Your encrypted `.poxvirid` backups can be transferred between supported platforms.
+
+---
 
 ## 🆓 Actually Free
 
-No trial.
+**No trial. No premium security tier. No monthly subscription.**
 
-No premium security tier.
+Poxvirid's core security features are available completely free.
 
-No monthly subscription.
+```text
+✓ Encrypted local storage
+✓ Password generator
+✓ Security analysis
+✓ Encrypted backups
+✓ Windows application
+✓ Android application
+✓ Pocket Edition
+✓ No advertisements
+✓ No telemetry
+✓ No subscription
+```
 
-No advertising.
+---
 
-Core security features, encrypted storage, password generation, security analysis, backups, Windows, Android, and Pocket Edition are available **completely free**.
-
-## 🎯 Who Is Poxvirid For?
-
-Poxvirid is built for:
+## 🎯 Built For
 
 **Developers • System Administrators • Privacy-conscious users • Independent professionals • Small organizations • Offline systems • Restricted environments**
 
-and anyone who prefers:
+And anyone who believes:
 
-```text
-Local ownership > Cloud dependency
-Privacy > Telemetry
-Encryption > Trust
-```
+> **Local ownership > Cloud dependency**
+> **Privacy > Telemetry**
+> **Encryption > Trust**
+
+---
 
 ## ⚠️ No Backdoor
 
@@ -180,33 +305,38 @@ Poxvirid intentionally has **no master-password recovery backdoor**.
 
 If you lose your master password and don't have access to a valid encrypted backup, your vault cannot be recovered.
 
-That's not a missing feature.
-
-That's what owning your encryption keys means.
-
-## 🚀 Download Poxvirid
-
-Poxvirid is currently available for:
-
-**Windows • Windows Pocket Edition • Android**
-
-👉 **Official website:**
-https://www.axinomyus.com/products/poxvirid
-
-Download Poxvirid only from official Axinomyus distribution channels and verify the provided SHA-256 checksum when appropriate.
+**That's not a missing feature. That's what owning your encryption keys means.**
 
 ---
 
-### 🔐 Your vault should not be somebody else's database.
+## 🚀 Get Poxvirid
 
-**Poxvirid Vault**
+<p align="center">
+  <a href="https://www.axinomyus.com/products/poxvirid">
+    <img src="https://img.shields.io/badge/Official_Website-Poxvirid-18181b?style=for-the-badge" alt="Poxvirid Website">
+  </a>
+  <a href="https://www.axinomyus.com/downloads/releases/5/Poxvirid-Setup-1.2.0-x64.exe">
+    <img src="https://img.shields.io/badge/Windows-Download-0078D4?style=for-the-badge&logo=windows" alt="Windows">
+  </a>
+  <a href="https://www.axinomyus.com/downloads/releases/3/Poxvirid-Android-1.2.0.apk">
+    <img src="https://img.shields.io/badge/Android-Download-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+  </a>
+</p>
 
-Completely free.
-Fully local.
-No telemetry.
-No subscriptions.
-No cloud vault.
+> ⚠️ Download Poxvirid only from official **Axinomyus** distribution channels and verify the provided SHA-256 checksum when appropriate.
 
-**All your data in your pocket.**
+---
 
-Made by **Axinomyus**
+<p align="center">
+  <strong>🔐 Your vault should not be somebody else's database.</strong>
+</p>
+
+<p align="center">
+  <strong>Poxvirid Vault</strong><br>
+  Completely free. Fully local. No telemetry. No subscriptions.<br>
+  <strong>All your data in your pocket.</strong>
+</p>
+
+<p align="center">
+  Made by <a href="https://www.axinomyus.com"><strong>Axinomyus</strong></a>
+</p>
